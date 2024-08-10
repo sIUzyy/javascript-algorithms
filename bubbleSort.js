@@ -6,9 +6,6 @@
 // 5. Compare and Swap
 // 6. Return the sorted Array
 
-
-
-
 // pseudo iteration
 // first iteration - [3, 2, 6, 1, 11]
 // second iteration - [2, 3, 1, 6, 11]
@@ -34,7 +31,6 @@ const bubbleSort = (arr) => {
             // example arr[j+1] = '6' which is index 1.
             if(arr[j] > arr[j + 1]){
 
-            
                 // array destructing. swapping elements in an array.
                 // arr[j] = 'left'.
                 // arr[j+1] = 'right'.
@@ -46,7 +42,6 @@ const bubbleSort = (arr) => {
     // after all the passes and swaps have been completed, the array is fully sorted.
     return arr
 }
-
 
 // invoke the function bubbleSort and pass an argument.
 console.log(bubbleSort([3, 6, 2, 11, 1])); // output: [ 1, 2, 3, 6, 11 ]
