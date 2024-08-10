@@ -19,7 +19,7 @@ const bubbleSort = (arr) => {
     const len = arr.length;
 
     // the loop starts with i = 0 and continues until i reaches 'len', where len is the total number of elements in the array.
-    for(let i = 0; i < len - 1; i++){ // outer loop
+    for(let i = 0; i < len; i++){ // outer loop
 
         // The len - i - 1 ensures that you don’t compare elements that are already in their right places.
         for(let j = 0; j < len - i - 1; j++){ // inner loop
