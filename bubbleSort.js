@@ -4,7 +4,7 @@
 // 3. Outer Loop
 // 4. Inner Loop 
 // 5. Compare and Swap
-// 6. Return the sorted Array
+// 6. Return the sorted Array.
 
 // pseudo iteration
 // first iteration - [3, 2, 6, 1, 11]
