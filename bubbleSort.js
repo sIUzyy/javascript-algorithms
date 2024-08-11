@@ -6,6 +6,13 @@
 // 5. Compare and Swap
 // 6. Return the sorted Array.
 
+// TIPS:
+// 1. GET THE LENGTH OF AN ARRAY
+// 2. LOOP THROUGH IT USING OUTER AND INNER LOOP
+// 3. COMPARE THE LEFT AND RIGHT ELEMENTS 
+// 4. USE DESTRUCTING ARRAY
+// 5. RETURN THE ARRAY.
+
 // pseudo iteration
 // first iteration - [3, 2, 6, 1, 11]
 // second iteration - [2, 3, 1, 6, 11]
